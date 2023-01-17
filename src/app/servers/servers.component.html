@@ -1,0 +1,18 @@
+<section>
+  <h1>I'm in the Servers Component</h1>
+  <label>Server name is: {{ serverName }}</label>
+  <input
+    type="text"
+    class="form-control"
+    (input)="onUpdateServerName($event)"
+  />
+  <button
+    [disabled]="getDisabled()"
+    class="btn btn-primary"
+    (click)="onCreateServer()"
+  >
+    Add Server
+  </button>
+  <p>{{ serverCreationStatus }}</p>
+  <app-server></app-server>
+</section>

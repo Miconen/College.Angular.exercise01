@@ -1,11 +1,15 @@
 section {
 
-    background-color: bisque;
+    background-color: black;
     padding: 1rem;
     margin: 1rem;
+    color: bisque;
 
     h1 {
         font-size: 3rem;
-        color: blue;
+    }
+
+    p {
+        font-size: 2rem;
     }
 }
